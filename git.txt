@@ -1,0 +1,11 @@
+一、创建仓库
+1.创建本地仓库
+2.在本地文件夹内打开git bash
+3.将文件夹初始化为git本地仓库---git init
+
+查看本地库状态---git status
+将文件提交到暂存区---git add 文件名
+将文件从暂存区或工作区删除---git rm --cached 文件名
+将文件从暂存区提交到本地仓库---git commit -m 版本
+查看提交记录 git log
+将文件回退到指定版本---git reset 指定版本 （git log中有版本号）
