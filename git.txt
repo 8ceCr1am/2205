@@ -8,4 +8,18 @@
 将文件从暂存区或工作区删除---git rm --cached 文件名
 将文件从暂存区提交到本地仓库---git commit -m 版本
 查看提交记录 git log
-将文件回退到指定版本---git reset 指定版本 （git log中有版本号）
+将文件回退到指定版本---git reset --hard 指定版本 （git log中有版本号）
+
+
+分支操作
+创建分支---git branch 分支名称
+切换分支---git checkout 分支名称
+合并分支---git merge 分支名称
+
+将本地仓库与远程仓库连接
+设置本地仓库与远程仓库链接
+创建链接---git remote add origin https://github.com/8ceCr1am/2205.git
+查看远程链接信息---git remote -v
+将本地仓库代码 上传到远程仓库内---git push （-u origin master）
+将远程仓库代码 下载到本地仓库内---git pull
+
